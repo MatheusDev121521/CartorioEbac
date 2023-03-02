@@ -137,6 +137,7 @@ int main() //função de início de programa
 		printf("\t1 - Criar usuário\n");
 		printf("\t2 - Consultar usuários\n");
 		printf("\t3 - Excluir usuário\n\n");
+		printf("\t4 - Sair do sistema\n\n");
 		printf("Opção: "); 
 		//Fim do Menu
 	
@@ -157,6 +158,11 @@ int main() //função de início de programa
 				
 			case 3:
 			excluir(); //direcionar para função
+			break;
+			
+			case 4:
+			printf("\t_~Obrigado por utilizar nosso sistema~_\n"); //Mensagem antes de saída de usuário
+			return 0; //Sair do sistema
 			break;
 			
 			default:
